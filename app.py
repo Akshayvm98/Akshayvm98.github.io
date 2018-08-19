@@ -20,4 +20,4 @@ def form_handler():
 	return {"para":new_para}
 if os.environ.get('APP_LOCATION')=="heroku":
 	run(host='0.0.0.0', port=int(os.environ.get("PORT",5000)))
-run(host='localhost', port=8080, debug=True)
+else:	run(host='localhost', port=8080, debug=True)
