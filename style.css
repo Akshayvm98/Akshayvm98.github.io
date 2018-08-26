@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1,
 h2,
 h3 {
@@ -128,3 +129,24 @@ label {
 	color: #ffffff;
 	background-color: #777;
 }
+=======
+header{
+	background-image:  url("7.jpeg");
+	height:100vh ;
+	background-size:center;
+	background-position:center;
+}
+ul{
+	float: left;
+	
+}
+ul a{
+	text-decoration: none;
+	color:#fff;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+
+}
+
+>>>>>>> 48331c624a930d59760f287a12487c7b0b0eec18
