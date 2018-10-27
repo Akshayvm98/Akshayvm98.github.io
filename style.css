@@ -43,6 +43,7 @@ label {
 	-webkit-transform: rotate(-10deg);
 	-moz-transform: rotate(-10deg);
 	-o-transform: rotate(-10deg);
+	box-shadow: currentColor;
 }
 
 .project {
@@ -76,7 +77,6 @@ label {
 	margin-left: 2%;
 	margin-right: 2%;
 }
-{}
 
 .page-header {
 	border-bottom: 2px solid #ccc;
